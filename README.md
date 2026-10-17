@@ -5,7 +5,7 @@ This notebook demonstrates and evaluates multiple strategies for handling class 
 ## 📋 Project Overview
 Customer churn is heavily imbalanced in this dataset. To improve the classification metrics (particularly minority class recall), we train and compare deep learning models using the following techniques:
 
-1. **Baseline with Imbalanced Data**: Simple preprocessing (with gender encoding fixed).
+1. **Baseline with Imbalanced Data**: Simple preprocessing with unbalanced data.
 2. **Random Under-Sampling**: Reducing majority class samples to match the minority size.
 3. **Random Over-Sampling**: Replicating minority class samples to match the majority size.
 4. **SMOTE (Synthetic Minority Over-sampling Technique)**: Generating synthetic samples for the minority class.
